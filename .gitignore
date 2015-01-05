@@ -15,3 +15,5 @@ Thumbs.db
 
 # Vendor packages
 node_modules
+
+test

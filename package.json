@@ -28,7 +28,7 @@
   "bin": {
     "balmung-cli": "./bin/balmung-cli"
   },
-  "main": "index.js",
+  "main": "lib/optimizer.js",
   "engines": {
     "node": ">=0.8"
   },
@@ -37,7 +37,9 @@
   },
   "dependencies": {
     "commander": "^2.2.0",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "balmung": "~0.3.0",
+    "Q": "*"
   },
   "devDependencies": {
 
