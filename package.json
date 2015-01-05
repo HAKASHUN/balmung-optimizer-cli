@@ -1,0 +1,45 @@
+{
+  "name": "balmung-optimizer-cli",
+  "description": "Generate a command line application for node.js.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/HAKASHUN/balmung-optimizer-cli",
+  "author": {
+    "name": "HAKASHUN",
+    "url": "https://github.com/null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HAKASHUN/balmung-optimizer-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HAKASHUN/balmung-optimizer-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/HAKASHUN/balmung-optimizer-cli/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "cli",
+    "command line"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "balmung-cli": "./bin/balmung-cli"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha -R test"
+  },
+  "dependencies": {
+    "commander": "^2.2.0",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+
+  }
+}
