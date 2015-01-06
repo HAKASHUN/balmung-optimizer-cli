@@ -38,7 +38,7 @@
   "dependencies": {
     "commander": "^2.2.0",
     "lodash": "^2.4.1",
-    "balmung": "~0.3.0",
+    "balmung": "git://github.com/HAKASHUN/balmung.git",
     "Q": "*"
   },
   "devDependencies": {
