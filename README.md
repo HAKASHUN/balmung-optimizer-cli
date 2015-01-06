@@ -20,8 +20,13 @@ $ Usage: balmung-cli <src> [options]
 ```
 ###example
 
+### basic
 ```
 $ cd example
 $ balmung-cli images -d dest
 ```
-
+### load [config json](http://hakashun.github.io/balmung-optimizer-cli/sample/config.json)
+```
+$ cd example
+$ balmung-cli images -s http://hakashun.github.io/balmung-optimizer-cli/sample/config.json
+```
