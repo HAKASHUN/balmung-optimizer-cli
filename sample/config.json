@@ -1,0 +1,50 @@
+{
+  "datadir": "./",
+  "settings": {},
+  "resize": {
+    "ratio": [
+      2
+    ],
+    "base": 2,
+    "unsharp": {
+      "radius": 2,
+      "sigma": 1.4,
+      "amount": 0.5,
+      "threshold": 0
+    },
+    "concurrency": 1,
+    "dirname": "{dirname}",
+    "filename": "{basename}{extname}"
+  },
+  "optimize": {
+    "concurrency": 2,
+    "tools": {
+      "jpg": [
+        "jpegtran"
+      ],
+      "png": [
+        "pngquant",
+        "optipng",
+        "zopfli"
+      ],
+      "gif": [
+        "gifsicle"
+      ]
+    }
+  },
+  "pngquant": {
+    "color": 256,
+    "speed": 3
+  },
+  "optipng": {
+    "level": 7
+  },
+  "zopfli": {},
+  "jpegtran": {
+    "optimize": true,
+    "copy": "none"
+  },
+  "gifsicle": {
+    "level": 3
+  }
+}
